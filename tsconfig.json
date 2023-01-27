@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "es2015",
+    "module": "es6",
+    "jsx": "react",
+    "noImplicitAny": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@common/": ["./common"],
+      "@common/*": ["./common/*"],
+      "@core/": ["./core"],
+      "@core/*": ["./core/*"],
+      "@utils/": ["./utils/"],
+      "@utils/*": ["./utils/*"],
+      "types/": ["./types.ts"]
+    }
+  }
+}
