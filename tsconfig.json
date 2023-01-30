@@ -12,9 +12,9 @@
       "@common/*": ["./common/*"],
       "@core/": ["./core"],
       "@core/*": ["./core/*"],
-      "@utils/": ["./utils/"],
+      "@utils/": ["./utils"],
       "@utils/*": ["./utils/*"],
-      "types/": ["./types.ts"]
+      "@types/": ["./types.ts"],
     }
   }
 }
