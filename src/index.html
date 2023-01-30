@@ -6,6 +6,32 @@
     <meta name="description" content="Web site created using webpack" />
     <title>Your title</title>
   </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+    }
+    #root {
+      width: 90%;
+      height: 90%;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .line-chart__tooltip {
+      position: absolute;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 5px;
+      border-radius: 10px;
+      color: #fff;
+      transition: 0.5s ease;
+      opacity: 0;
+    }
+  </style>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
